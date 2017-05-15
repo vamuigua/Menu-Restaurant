@@ -13,6 +13,7 @@
 <body>
 
     <div class="container">
+        <h1>This is Menu Nav Test</h1>
         <!-- The overlay -->
         <div id="myNav" class="overlay">
             <!-- Button to close the overlay navigation -->
@@ -26,9 +27,18 @@
             </div>
         </div>
         <!-- Use any element to open/show the overlay navigation menu -->
-        <span onclick="openNav()">open</span>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
     </div>
-<script src="js/main.js"></script>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+
 </body>
 
 </html>
