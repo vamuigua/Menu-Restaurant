@@ -69,14 +69,22 @@ body {
 }
 
 /*Landing Intro*/
-#landing-intro{
-    position: relative;
-}
-
 #landing-img img{
+    position: absolute;
     width: 100%;
 }
 #logobig-img{
+    padding-top: 55px;
+    position: relative;
     font-size: 20px;
     text-align: center;
+}
+#logobig-img img{
+    display: inline;
+}
+#logobig-img p{
+    padding-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: aliceblue;
 }
