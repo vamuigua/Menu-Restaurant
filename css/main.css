@@ -6,6 +6,9 @@ body {
 #hamberger-menu{
     font-size:40px;
     cursor:pointer;
+    position: absolute;
+    z-index: 2;
+    color:aliceblue;
 }
 
 #hamberger-menu span{
@@ -17,7 +20,7 @@ body {
     height: 100%;
     width: 0;
     position: fixed;/* Stay in place */
-    z-index: ;/* Sit on top */
+    z-index:1;/* Sit on top */
     left: 0;
     top: 0;
     background-color: #F15A29;
@@ -62,4 +65,13 @@ body {
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a { font-size: 18px;}
+}
+
+/*Landing Intro*/
+#landing-intro{
+    position: relative;
+}
+
+#landing-img img{
+    width: 100%;
 }
