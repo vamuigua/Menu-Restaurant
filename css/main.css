@@ -8,6 +8,10 @@ body {
     cursor:pointer;
 }
 
+#hamberger-menu span{
+    margin-left:50px;
+}
+
 /* The sidenav (background) */
 .sidenav {
     height: 100%;
