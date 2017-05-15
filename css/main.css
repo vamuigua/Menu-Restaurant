@@ -71,7 +71,6 @@ body {
 /*Landing Intro*/
 #landing-img img{
     position: absolute;
-    width: 100%;
 }
 #logobig-img{
     padding-top: 55px;
@@ -79,10 +78,9 @@ body {
     font-size: 20px;
     text-align: center;
 }
-#logobig-img img{
-    display: inline;
-}
+
 #logobig-img p{
+    text-align: center;
     padding-top: 30px;
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
