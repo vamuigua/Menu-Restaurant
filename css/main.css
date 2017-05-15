@@ -3,29 +3,31 @@ body {
     font-family: 'Raleway', sans-serif;
     width: 100%;
 }
-
-#hamberger-menu{
-    font-size:40px;
-    cursor:pointer;
+#hamberger-menu {
+    font-size: 40px;
+    cursor: pointer;
     position: absolute;
     z-index: 2;
-    color:aliceblue;
+    color: aliceblue;
 }
-
-#hamberger-menu span{
-    margin-left:50px;
+#hamberger-menu span {
+    margin-left: 50px;
 }
 
 /* The sidenav (background) */
+
 .sidenav {
     height: 100%;
     width: 0;
-    position: fixed;/* Stay in place */
-    z-index:1;/* Sit on top */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
     left: 0;
     top: 0;
     background-color: #F15A29;
-    overflow-x: hidden;/* Disable horizontal scroll */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
     transition: 0.5s;
     /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
     padding-top: 60px;
@@ -33,6 +35,7 @@ body {
 }
 
 /* Position the content inside the sidenav */
+
 .sidenav a {
     font-family: 'Raleway', sans-serif;
     padding: 8px 8px 8px 32px;
@@ -44,7 +47,8 @@ body {
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidenav a:hover{
+
+.sidenav a:hover {
     font-family: 'Raleway', sans-serif;
     color: #f1f1f1;
     text-decoration: none;
@@ -52,8 +56,8 @@ body {
     font-size: 35px;
 }
 
-
 /* Position the close button (top right corner) */
+
 .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -63,35 +67,32 @@ body {
 }
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a { font-size: 18px;}
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
 }
 
 /*Landing Intro*/
-#landing-img img{
-    position: absolute;
+#landing-intro{
+    
 }
-#logobig-img{
-    padding-top: 55px;
-    position: relative;
+#logobig-img {
     font-size: 20px;
     text-align: center;
+    align-content: center;
 }
 
-#logobig-img p{
+#logobig-img p {
     text-align: center;
     padding-top: 30px;
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
-    color: aliceblue;
+    color: red;
 }
 
 /*Food Time Section 4 GRIDS*/
-#happy-txt{
-    align-content: center;
-    text-align: center;
-}
-#happy-txt #happyhour{
-    background-color: 
-}
