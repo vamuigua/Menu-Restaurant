@@ -100,14 +100,34 @@ body {
 }
 
 /*Media Query for logoBig img*/
+
 @media only screen and (max-device-width: 1060px) {
-    #logobig-img p{
+    #logobig-img p {
         visibility: hidden;
     }
 }
-@media only screen and (max-device-width: 829px){
-    #logobig-img img{
+@media only screen and (max-device-width: 790px) {
+    #logobig-img img {
         visibility: hidden;
     }
 }
+
+/*Custom fix for Head-text for small devices*/
+@media only screen and (max-device-width: 790px) {
+    #Head-text-min-dev h1 {
+        visibility: visible;
+        color: aliceblue;
+        text-align: center;
+        font-family: 'Bree Serif', serif;
+        font-size: 60px;
+        position:relative;
+        bottom: 120px; 
+    }
+}
+@media only screen and (min-device-width: 790px) {
+    #Head-text-min-dev h1 {
+        visibility: hidden;
+    }
+}
+
 /*Food Time Section 4 GRIDS*/
