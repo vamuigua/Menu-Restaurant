@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
     width: 100%;
+    background-color: #F15B29;
 }
 #hamberger-menu {
     font-size: 35px;
@@ -132,13 +133,12 @@ body {
 }
 
 /*Food Time Section 4 GRIDS*/
-.nopadding{
-    position: relative;
-    padding: 0 !important;
-    margin: -90px 0 0 0  !important;
-}
 
-.row p{
+.nopadding {
+    padding: 0 !important;
+    margin: -90px 0 0 0 !important;
+}
+.row p {
     font-family: 'Bree Serif', serif;
     text-align: center;
     font-size: 30px;
@@ -147,9 +147,8 @@ body {
     left: 100px;
     color: aliceblue;
 }
-
 @media only screen and (max-device-width: 990px) {
-    .row p{
+    .row p {
         font-size: 40px;
     }
 }
