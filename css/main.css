@@ -154,12 +154,10 @@ body {
 }
 
 /*Fast Food and Drinks*/
+
+
 /*Left side*/
-#box-holder-FF-Left{
-    margin: 50px 0px;
-    padding: 60px 60px;
-    box-shadow: inset 0 0 20px #000000;
-}
+
 .view-btn {
     border: 1px solid #F15B29;
     border-radius: 3px;
@@ -169,17 +167,41 @@ body {
     text-align: center;
     padding: 10px 30px;
 }
+#box-holder-FF-Left {
+    margin: 50px 0px;
+    padding: 60px 60px;
+    box-shadow: inset 0 0 20px #000000;
+}
 
 /*Right side*/
-#box-holder-FF-Right{
+
+#box-holder-FF-Right {
     margin: 100px 100px 0 0;
     font-family: 'Droid Serif', serif;
 }
 
 /*Drinks*/
-#box-holder-DK-Left{
-    padding:0 50px 0 0;
+
+
+/*Left side*/
+
+#box-holder-DK-Left {
+    padding: 20px 40px 0 0;
     text-align: right;
-    margin: 0 0 0 70px;
+    margin: 0 0 0 0px;
     font-family: 'Droid Serif', serif;
+}
+
+/*Right side*/
+
+.DK-Right {
+    margin: 0 0 0 -20px;
+    display: table;
+    box-shadow: inset 0 0 20px #000000;
+}
+.DK-Right img {
+    padding: 20px 0px;
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
 }
