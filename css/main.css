@@ -88,14 +88,26 @@ body {
     position: absolute;
     right: 50px;
     left: 50px;
-    
+    top: 0;
+    padding-top: 50px
 }
 #logobig-img p {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 45px;
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
-    color: red;
+    color: aliceblue;
 }
 
+/*Media Query for logoBig img*/
+@media only screen and (max-device-width: 1060px) {
+    #logobig-img p{
+        visibility: hidden;
+    }
+}
+@media only screen and (max-device-width: 829px){
+    #logobig-img img{
+        visibility: hidden;
+    }
+}
 /*Food Time Section 4 GRIDS*/
