@@ -2,7 +2,6 @@ body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
     width: 100%;
-    background-color: #F15B29;
 }
 #hamberger-menu {
     font-size: 35px;
@@ -145,10 +144,20 @@ body {
     position: absolute;
     top: 65px;
     left: 100px;
-    color: aliceblue;
+    color: white;
 }
 @media only screen and (max-device-width: 990px) {
     .row p {
         font-size: 40px;
     }
+}
+
+.view-btn{
+    border: 1px solid #F15B29;
+    border-radius: 3px;
+    color: #F15B29;
+    background-color:white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 30px;
 }
