@@ -133,6 +133,23 @@ body {
 
 /*Food Time Section 4 GRIDS*/
 .nopadding{
+    position: relative;
     padding: 0 !important;
-    margin: 0  !important;
+    margin: -90px 0 0 0  !important;
+}
+
+.row p{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 65px;
+    left: 100px;
+    color: aliceblue;
+}
+
+@media only screen and (max-device-width: 990px) {
+    .row p{
+        font-size: 40px;
+    }
 }
