@@ -204,3 +204,15 @@ body {
     display: inline-block;
     vertical-align: middle;
 }
+
+/*Food slideshow*/
+
+#food-slide {
+    margin-top: 140px;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-image: url(img/backgrounds/foodsBg.jpg);
+    background-position: center;
+    background-size: cover;
+}
