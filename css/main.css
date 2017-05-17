@@ -301,11 +301,10 @@ body {
 #subscribe {
     position: relative;
 }
-
 #sub-content {
-    position:absolute;
+    position: absolute;
     left: 250px;
-    top: 100px;
+    top: 70px;
     text-align: center;
 }
 #sub-content h3 {
@@ -322,10 +321,25 @@ body {
     padding: 10px 90px;
 }
 #sub-content input {
-    border: 1px solid rgba(255,255,255,0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.5);
     color: white;
     font-size: 25px;
     padding: 10px 100px;
+}
+/*Footer*/
+#menu-foot{
+    padding: 30px 0 10px 0 ;
+    text-align: center;
+    background-color: orangered;
+    color: white;
+}
+#menu-foot a{
+    color: white;
+    text-decoration: none;
+}
+
+#logo-foot img{
+    padding: 40px 0;
 }
