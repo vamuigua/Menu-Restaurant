@@ -216,3 +216,9 @@ body {
     background-position: center;
     background-size: cover;
 }
+
+/*Image slider*/
+.carousel-control {
+  padding-top:10%;
+  width:5%;
+}
