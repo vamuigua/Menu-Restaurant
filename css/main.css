@@ -218,7 +218,42 @@ body {
 }
 
 /*Image slider*/
+
 .carousel-control {
-  padding-top:10%;
-  width:5%;
+    padding-top: 10%;
+    width: 5%;
+}
+#slide-space {
+    margin: 200px 0px;
+    padding: 0 110px;
+}
+#food-select {
+    margin: 0 12px
+}
+#food-select div {
+    background-color: #E3E3E3;
+    border: 1px solid black;
+}
+#food-select div:hover,
+:active {
+    background-color: white;
+    color: orangered;
+}
+#food-select a {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 30px
+}
+#food-select a:hover {
+    color: orangered;
+}
+
+.slide-content a{
+    font-size: 25px;
+    color: #F15B29;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    
 }
