@@ -12,10 +12,11 @@ body {
     z-index: 2;
     color: aliceblue;
     position: fixed;
-    background-color: orangered;
+    background-color: #F15A29;
 }
 #hamberger-menu span {
-    margin-left: 50px;
+    margin-left: 30px;
+    padding-right: 15px;
 }
 
 /* The sidenav (background) */
@@ -139,6 +140,13 @@ body {
     padding: 0 !important;
     margin: -90px 0 0 0 !important;
 }
+.nopadding img:hover{
+    opacity: 0.5;
+}
+.nopadding p:hover{
+    color: black;
+}
+
 .row p {
     font-family: 'Bree Serif', serif;
     text-align: center;
