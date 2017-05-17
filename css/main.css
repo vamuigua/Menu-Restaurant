@@ -12,6 +12,7 @@ body {
     z-index: 2;
     color: aliceblue;
     position: fixed;
+    background-color: orangered;
 }
 #hamberger-menu span {
     margin-left: 50px;
@@ -234,8 +235,7 @@ body {
     background-color: #E3E3E3;
     border: 1px solid black;
 }
-#food-select div:hover,
-:active {
+#food-select div:hover {
     background-color: white;
     color: orangered;
 }
@@ -248,12 +248,50 @@ body {
 #food-select a:hover {
     color: orangered;
 }
-
-.slide-content a{
+.slide-content a {
     font-size: 25px;
     color: #F15B29;
     text-align: center;
     align-content: center;
     text-decoration: none;
-    
+}
+
+/*Customers section*/
+
+
+/*LEFT*/
+
+.customer-left {
+    text-align: center;
+}
+.customer-left h3 {
+    color: orangered;
+}
+.customer-left h4 {
+    color: black;
+    letter-spacing: 2px;
+}
+.customer-left h6 {
+    color: black;
+}
+.row .cust-pos img {
+    padding: 10px 0 0 100px;
+    align-content: center;
+}
+
+/*RIGHT*/
+
+.customer-right {
+    border-left: 2px solid #000000;
+    text-align: center;
+}
+.customer-right h3 {
+    color: orangered;
+}
+.customer-right h4 {
+    color: black;
+    letter-spacing: 2px;
+}
+.customer-right h6 {
+    color: black;
 }
